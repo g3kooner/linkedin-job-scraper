@@ -42,7 +42,7 @@ def logging_in():
 
 def scrape_page(driver, location, keyword, remote, date_posted, search_count):
     job_list = []
-    search_url = f"https://www.linkedin.com/jobs/search/?f_TPR={date_posted}&f_WT={remote}&geoId=103644278&keywords={keyword}&location={location}&start={search_count}"
+    search_url = f"https://www.linkedin.com/jobs/search/?f_TPR={date_posted}&f_WT={remote}&geoId=101174742&keywords={keyword}&location={location}&start={search_count}"
     driver.get(search_url)
     driver.implicitly_wait(page_timeout)
 
@@ -77,18 +77,18 @@ def scrape_page(driver, location, keyword, remote, date_posted, search_count):
         for attempt in range(num_retries):
             try:
                 company, location, updated, applicants = ["" for i in range(4)]
-                top_card = driver.find_element(by=By.XPATH, value = "//div[@class='jobs-unified-top-card__primary-description']")
+                top_card = driver.find_element(by=By.XPATH, value = "//div[@class='jobs-unified-top-card__primary-description']//div")
+                content = top_card.text.split("·")
                 try:
-                    primary_info = top_card.find_element(by=By.XPATH, value="//span[@class='jobs-unified-top-card__subtitle-primary-grouping t-black']")
-                    company = primary_info.find_elements(by=By.TAG_NAME, value="span")[0].text
-                    location = primary_info.find_elements(by=By.TAG_NAME, value="span")[1].text
-                except: pass
-                try:
-                    secondary_info = top_card.find_element(by=By.XPATH, value="//span[@class='jobs-unified-top-card__subtitle-secondary-grouping t-black--light']")
-                    updated = secondary_info.find_elements(by=By.TAG_NAME, value="span")[0].text
-                    applicants = secondary_info.find_elements(by=By.TAG_NAME, value="span")[1].text
+                    company = content[0].strip()
+                    applicants = content[2].strip()
                 except: pass
 
+                try:
+                    info = content[1].split("  ")
+                    location = info[0].strip()
+                    updated = info[1].strip()
+                except: pass
                 break
             except: time.sleep(click_timeout)
 
@@ -144,8 +144,8 @@ def scrape_page(driver, location, keyword, remote, date_posted, search_count):
 
 
 time_now = datetime.today().strftime('%d-%b-%y_%H:%M:%S')
-log_file = f"proj/log/{time_now}.log"
-file_name = f"proj/data/JOB_DATA_{time_now}.csv"
+log_file = f"log/{time_now}.log"
+file_name = f"data/JOB_DATA_{time_now}.csv"
 
 logging.basicConfig(filename=log_file, filemode="w", level=logging.INFO, format="%(asctime)s  - %(levelname)s - %(message)s", force=True)
 logging.info(f"Log file {log_file} successfully created.")
