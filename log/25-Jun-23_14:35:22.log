@@ -1,0 +1,163 @@
+2023-06-25 14:35:22,747  - INFO - Log file log/25-Jun-23_14:35:22.log successfully created.
+2023-06-25 14:35:41,267  - INFO - Logging into LinkedIn as digitalliqhtz@gmail.com...
+2023-06-25 14:37:04,710  - INFO - Log in completed. Beginning to scrape jobs...
+2023-06-25 14:37:57,312  - INFO - Currently scraping page 1 of 10 for machine learning engineer's with 229 results...
+2023-06-25 14:39:27,868  - INFO - Done scraping page 1 of 10
+2023-06-25 14:40:07,011  - INFO - Currently scraping page 2 of 10 for machine learning engineer's with 229 results...
+2023-06-25 14:40:56,938  - INFO - Done scraping page 2 of 10
+2023-06-25 14:41:24,660  - INFO - Currently scraping page 3 of 10 for machine learning engineer's with 228 results...
+2023-06-25 14:42:05,687  - INFO - Done scraping page 3 of 10
+2023-06-25 14:42:30,477  - INFO - Currently scraping page 4 of 10 for machine learning engineer's with 228 results...
+2023-06-25 14:43:11,382  - INFO - Done scraping page 4 of 10
+2023-06-25 14:43:42,298  - INFO - Currently scraping page 5 of 10 for machine learning engineer's with 227 results...
+2023-06-25 14:44:14,742  - INFO - Done scraping page 5 of 10
+2023-06-25 14:45:20,998  - INFO - Currently scraping page 6 of 10 for machine learning engineer's with 227 results...
+2023-06-25 14:54:49,644  - INFO - Done scraping page 6 of 10
+2023-06-25 14:57:33,961  - INFO - Currently scraping page 7 of 10 for machine learning engineer's with 227 results...
+2023-06-25 14:59:30,604  - INFO - Done scraping page 7 of 10
+2023-06-25 14:59:30,606  - ERROR - (1) Error while loading results for machine learning engineer on page 8 of 10, retrying...
+2023-06-25 14:59:30,606  - ERROR - Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.133)
+Stacktrace:
+0   chromedriver                        0x0000000104f1ff48 chromedriver + 4226888
+1   chromedriver                        0x0000000104f184f4 chromedriver + 4195572
+2   chromedriver                        0x0000000104b5cd68 chromedriver + 281960
+3   chromedriver                        0x0000000104b45db4 chromedriver + 187828
+4   chromedriver                        0x0000000104b45b9c chromedriver + 187292
+5   chromedriver                        0x0000000104bce4a4 chromedriver + 746660
+6   chromedriver                        0x0000000104b8bf1c chromedriver + 474908
+7   chromedriver                        0x0000000104b8cef4 chromedriver + 478964
+8   chromedriver                        0x0000000104ee159c chromedriver + 3970460
+9   chromedriver                        0x0000000104ee56f0 chromedriver + 3987184
+10  chromedriver                        0x0000000104eeb5b4 chromedriver + 4011444
+11  chromedriver                        0x0000000104ee62fc chromedriver + 3990268
+12  chromedriver                        0x0000000104ebe1c0 chromedriver + 3826112
+13  chromedriver                        0x0000000104f02088 chromedriver + 4104328
+14  chromedriver                        0x0000000104f021e0 chromedriver + 4104672
+15  chromedriver                        0x0000000104f11f28 chromedriver + 4169512
+16  libsystem_pthread.dylib             0x00000001901b7fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x00000001901b2da0 thread_start + 8
+
+2023-06-25 15:15:57,294  - ERROR - (2) Error remains for machine learning engineer. Moving to the next page...
+2023-06-25 15:15:57,296  - ERROR - Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.133)
+Stacktrace:
+0   chromedriver                        0x0000000104f1ff48 chromedriver + 4226888
+1   chromedriver                        0x0000000104f184f4 chromedriver + 4195572
+2   chromedriver                        0x0000000104b5cd68 chromedriver + 281960
+3   chromedriver                        0x0000000104b45db4 chromedriver + 187828
+4   chromedriver                        0x0000000104b45b9c chromedriver + 187292
+5   chromedriver                        0x0000000104bce4a4 chromedriver + 746660
+6   chromedriver                        0x0000000104b8bf1c chromedriver + 474908
+7   chromedriver                        0x0000000104b8cef4 chromedriver + 478964
+8   chromedriver                        0x0000000104ee159c chromedriver + 3970460
+9   chromedriver                        0x0000000104ee56f0 chromedriver + 3987184
+10  chromedriver                        0x0000000104eeb5b4 chromedriver + 4011444
+11  chromedriver                        0x0000000104ee62fc chromedriver + 3990268
+12  chromedriver                        0x0000000104ebe1c0 chromedriver + 3826112
+13  chromedriver                        0x0000000104f02088 chromedriver + 4104328
+14  chromedriver                        0x0000000104f021e0 chromedriver + 4104672
+15  chromedriver                        0x0000000104f11f28 chromedriver + 4169512
+16  libsystem_pthread.dylib             0x00000001901b7fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x00000001901b2da0 thread_start + 8
+
+2023-06-25 15:15:57,297  - ERROR - (1) Error while loading results for machine learning engineer on page 9 of 10, retrying...
+2023-06-25 15:15:57,297  - ERROR - Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.133)
+Stacktrace:
+0   chromedriver                        0x0000000104f1ff48 chromedriver + 4226888
+1   chromedriver                        0x0000000104f184f4 chromedriver + 4195572
+2   chromedriver                        0x0000000104b5cd68 chromedriver + 281960
+3   chromedriver                        0x0000000104b45db4 chromedriver + 187828
+4   chromedriver                        0x0000000104b45b9c chromedriver + 187292
+5   chromedriver                        0x0000000104bce4a4 chromedriver + 746660
+6   chromedriver                        0x0000000104b8bf1c chromedriver + 474908
+7   chromedriver                        0x0000000104b8cef4 chromedriver + 478964
+8   chromedriver                        0x0000000104ee159c chromedriver + 3970460
+9   chromedriver                        0x0000000104ee56f0 chromedriver + 3987184
+10  chromedriver                        0x0000000104eeb5b4 chromedriver + 4011444
+11  chromedriver                        0x0000000104ee62fc chromedriver + 3990268
+12  chromedriver                        0x0000000104ebe1c0 chromedriver + 3826112
+13  chromedriver                        0x0000000104f02088 chromedriver + 4104328
+14  chromedriver                        0x0000000104f021e0 chromedriver + 4104672
+15  chromedriver                        0x0000000104f11f28 chromedriver + 4169512
+16  libsystem_pthread.dylib             0x00000001901b7fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x00000001901b2da0 thread_start + 8
+
+2023-06-25 15:33:43,896  - ERROR - (2) Error remains for machine learning engineer. Moving to the next page...
+2023-06-25 15:33:43,898  - ERROR - Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.133)
+Stacktrace:
+0   chromedriver                        0x0000000104f1ff48 chromedriver + 4226888
+1   chromedriver                        0x0000000104f184f4 chromedriver + 4195572
+2   chromedriver                        0x0000000104b5cd68 chromedriver + 281960
+3   chromedriver                        0x0000000104b45db4 chromedriver + 187828
+4   chromedriver                        0x0000000104b45b9c chromedriver + 187292
+5   chromedriver                        0x0000000104bce4a4 chromedriver + 746660
+6   chromedriver                        0x0000000104b8bf1c chromedriver + 474908
+7   chromedriver                        0x0000000104b8cef4 chromedriver + 478964
+8   chromedriver                        0x0000000104ee159c chromedriver + 3970460
+9   chromedriver                        0x0000000104ee56f0 chromedriver + 3987184
+10  chromedriver                        0x0000000104eeb5b4 chromedriver + 4011444
+11  chromedriver                        0x0000000104ee62fc chromedriver + 3990268
+12  chromedriver                        0x0000000104ebe1c0 chromedriver + 3826112
+13  chromedriver                        0x0000000104f02088 chromedriver + 4104328
+14  chromedriver                        0x0000000104f021e0 chromedriver + 4104672
+15  chromedriver                        0x0000000104f11f28 chromedriver + 4169512
+16  libsystem_pthread.dylib             0x00000001901b7fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x00000001901b2da0 thread_start + 8
+
+2023-06-25 15:33:43,900  - ERROR - (1) Error while loading results for machine learning engineer on page 10 of 10, retrying...
+2023-06-25 15:33:43,900  - ERROR - Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.133)
+Stacktrace:
+0   chromedriver                        0x0000000104f1ff48 chromedriver + 4226888
+1   chromedriver                        0x0000000104f184f4 chromedriver + 4195572
+2   chromedriver                        0x0000000104b5cd68 chromedriver + 281960
+3   chromedriver                        0x0000000104b45db4 chromedriver + 187828
+4   chromedriver                        0x0000000104b45b9c chromedriver + 187292
+5   chromedriver                        0x0000000104bce4a4 chromedriver + 746660
+6   chromedriver                        0x0000000104b8bf1c chromedriver + 474908
+7   chromedriver                        0x0000000104b8cef4 chromedriver + 478964
+8   chromedriver                        0x0000000104ee159c chromedriver + 3970460
+9   chromedriver                        0x0000000104ee56f0 chromedriver + 3987184
+10  chromedriver                        0x0000000104eeb5b4 chromedriver + 4011444
+11  chromedriver                        0x0000000104ee62fc chromedriver + 3990268
+12  chromedriver                        0x0000000104ebe1c0 chromedriver + 3826112
+13  chromedriver                        0x0000000104f02088 chromedriver + 4104328
+14  chromedriver                        0x0000000104f021e0 chromedriver + 4104672
+15  chromedriver                        0x0000000104f11f28 chromedriver + 4169512
+16  libsystem_pthread.dylib             0x00000001901b7fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x00000001901b2da0 thread_start + 8
+
+2023-06-25 15:54:17,578  - ERROR - (2) Error remains for machine learning engineer. Moving to the next page...
+2023-06-25 15:54:17,582  - ERROR - Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.133)
+Stacktrace:
+0   chromedriver                        0x0000000104f1ff48 chromedriver + 4226888
+1   chromedriver                        0x0000000104f184f4 chromedriver + 4195572
+2   chromedriver                        0x0000000104b5cd68 chromedriver + 281960
+3   chromedriver                        0x0000000104b45db4 chromedriver + 187828
+4   chromedriver                        0x0000000104b45b9c chromedriver + 187292
+5   chromedriver                        0x0000000104bce4a4 chromedriver + 746660
+6   chromedriver                        0x0000000104b8bf1c chromedriver + 474908
+7   chromedriver                        0x0000000104b8cef4 chromedriver + 478964
+8   chromedriver                        0x0000000104ee159c chromedriver + 3970460
+9   chromedriver                        0x0000000104ee56f0 chromedriver + 3987184
+10  chromedriver                        0x0000000104eeb5b4 chromedriver + 4011444
+11  chromedriver                        0x0000000104ee62fc chromedriver + 3990268
+12  chromedriver                        0x0000000104ebe1c0 chromedriver + 3826112
+13  chromedriver                        0x0000000104f02088 chromedriver + 4104328
+14  chromedriver                        0x0000000104f021e0 chromedriver + 4104672
+15  chromedriver                        0x0000000104f11f28 chromedriver + 4169512
+16  libsystem_pthread.dylib             0x00000001901b7fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x00000001901b2da0 thread_start + 8
+
+2023-06-25 15:54:18,746  - INFO - LinkedIn job data scraping complete with 3 first and 3 second errors.
+2023-06-25 15:54:18,746  - INFO - View final results structured in CSV format within the data directory.
